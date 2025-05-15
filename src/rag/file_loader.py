@@ -50,11 +50,11 @@ class TextSplitter():
             chunk_overlap=chunk_overlap,
         )
 
-        def __call__(self,documents):
+    def __call__(self,documents):
             return self.splitter.split_documents(documents)
 class Loader:
     def __init__(self,
-                 file_type: str=Literal["pdf"],
+                 file_type: str="pdf",
                  split_kwargs: dict={
                      "chunk_size":300,
                      "chunk_overlap": 0,

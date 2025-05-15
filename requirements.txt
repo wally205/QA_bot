@@ -3,7 +3,7 @@ transformers==4.39.3
 accelerate==0.28.0
 bitsandbytes==0.42.0
 huggingface-hub==0.22.2
-langchain==0.1.14
+langchain==0.1.16
 langchain-core==0.1.43
 langchain-community==0.0.31
 pypdf==4.2.0
@@ -15,5 +15,6 @@ langchain-chroma==0.1.0
 faiss-cpu==1.8.0
 rapidocr-onnxruntime==1.4.4
 unstructured==0.17.2
-fastapi==0.110.1
-uvicorn==0.29.0
+fastapi==0.111.1
+uvicorn==0.30.0
+httpx==0.26.0
